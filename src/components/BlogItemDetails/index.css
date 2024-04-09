@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+@media (min-width: 768px) {
+  .blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  .author-details {
+    display: flex;
+  }
+  .author-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 90px;
+    margin-right: 10px;
+  }
+  .desc {
+    color: #8e8e8e;
+  }
+  .blog-image {
+    height: 50vh;
+    width: 90%;
+  }
+}
+/* Write your CSS code here */
+@media (max-width: 768px) {
+  .blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  .author-details {
+    display: flex;
+  }
+  .author-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 90px;
+    margin-right: 10px;
+  }
+  .desc {
+    color: #8e8e8e;
+  }
+  .blog-image {
+    height: 50vh;
+    width: 90%;
+  }
+}
